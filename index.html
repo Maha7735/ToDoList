@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="bodyy">
+      <!-- CENTER DIV -->
+      <div id="todolist">
+        <!-- HEADER TABLE -->
+        <div id="header">
+          <h1>مهامي</h1>
+          <button id="addBtn" class="circular">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <!-- // HEADER TABLE // -->
+        <!-- TASKS -->
+        <div id="tasks" style="margin: 20px;">
+          <!-- TASK -->
+          <div class="task">
+            <!-- TASK INFO -->
+            <div id="info">
+              <h2>قراءة كتاب</h2>
+              <div>
+                <i class="fa-solid fa-calendar-days"></i><span> 10/10/2010 </span>
+              </div>
+            </div>
+            <!-- // TASK INFO // -->
+            <!-- TASK ACTION -->
+            <div id="action">
+              <button class="circular" id="delete" >
+                <i class="fa-solid fa-trash"></i>
+              </button>
+              <button class="circular" id="check">
+                <i class="fa-solid fa-check"></i></i>
+              </button>
+              <button  class="circular" id="edit">
+                <i class="fa-solid fa-pen"></i></i>
+              </button>
+            </div>
+            <!-- // TASK ACTION // -->
+          </div>
+          <!-- // TASK // -->
+        </div>
+        <!-- // TASKS // -->
+      </div>
+      <!-- // CENTER DIV // -->
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
