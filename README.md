@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="center">Using: <br>JS | API | HTML | CSS</h4>
+<h4 align="center">Using: <br>JS | HTML | CSS</h4>
 
 ###
 
