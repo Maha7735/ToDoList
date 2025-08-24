@@ -5,8 +5,6 @@
 <h4 align="center">Using: <br>JS | HTML | CSS</h4>
 
 ###
-
-<p align="center">⭐Note: for a better experience, it is recommended to use Microsoft Edge browser.⭐</p>
 <br>
 <br>
 
